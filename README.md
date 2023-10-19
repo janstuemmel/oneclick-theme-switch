@@ -1,8 +1,8 @@
-# Oneclick theme switcher
+# Oneclick theme switch
 
 A firefox extension that switches between dark and light theme with a single click
 
-[Firefox Add-Ons - Onclick Theme Switcher](https://addons.mozilla.org/de/firefox/addon/oneclick-theme-switcher/)
+[Firefox Add-Ons - Onclick Theme Switcher](https://addons.mozilla.org/de/firefox/addon/oneclick-theme-switch/)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./docs/screen-dark-1.png">

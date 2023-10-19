@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "oneclick-theme-switcher",
-  "version": "1.0",
+  "name": "oneclick-theme-switch",
+  "version": "1.1",
   "description": "Switches between dark and light theme with a single click",
   "background": {
     "page": "background.html"
