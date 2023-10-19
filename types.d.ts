@@ -1,0 +1,1 @@
+type ThemeKey = 'dark' | 'light';

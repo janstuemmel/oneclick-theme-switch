@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "oneclick-theme-switcher",
+  "version": "1.0",
+  "description": "Switches between dark and light theme with a single click",
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [
+    "management",
+    "storage",
+    "contextMenus"
+  ],
+  "action": {
+    "theme_icons": [{
+      "light": "icons/action-dark.svg",
+      "dark": "icons/action-light.svg",
+      "size": 16
+    }]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "oneclick-theme-switch@janstuemmel.github.io",
+      "strict_min_version": "109.0"
+    }
+  }
+}
