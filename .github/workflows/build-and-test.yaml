@@ -17,6 +17,6 @@ jobs:
           node-version: 18
           cache: 'npm'
       - run: npm ci
-      - run: npm test
+      - run: npx vitest --reporter=verbose
       - run: npm run type-check
       - run: npm run build
