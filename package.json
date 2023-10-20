@@ -8,7 +8,7 @@
     "build": "run-s clean ext:lint ext:build",
     "ext:start": "web-ext run -s src",
     "ext:lint": "web-ext lint -s src",
-    "ext:build": "web-ext build -s src -i **/*.spec.ts"
+    "ext:build": "web-ext build -s src -i **/*.ts"
   },
   "devDependencies": {
     "@types/firefox-webext-browser": "^111.0.3",
