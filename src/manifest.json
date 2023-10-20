@@ -4,7 +4,8 @@
   "version": "1.1",
   "description": "Switches between dark and light theme with a single click",
   "background": {
-    "page": "background.html"
+    "scripts": ["background/background.js"],
+    "type": "module"
   },
   "permissions": [
     "management",
