@@ -6,6 +6,7 @@ import {
 import { switchTheme } from './theme.js';
 
 browser.runtime.onInstalled.addListener(createContextMenu)
+browser.runtime.onStartup.addListener(createContextMenu)
 browser.management.onDisabled.addListener(createContextMenu)
 browser.management.onEnabled.addListener(createContextMenu)
 browser.management.onInstalled.addListener(createContextMenu)
